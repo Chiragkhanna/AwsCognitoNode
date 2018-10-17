@@ -1,0 +1,25 @@
+{
+  "name": "aswcognito",
+  "version": "1.0.0",
+  "description": "Sample project for AWS Cognito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chirag Khanna",
+  "license": "ISC",
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "webpack": "^4.16.5"
+  },
+  "dependencies": {
+    "amazon-cognito-auth-js": "^1.2.4",
+    "amazon-cognito-identity-js": "^2.0.19",
+    "aws-sdk": "^2.287.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "jwk-to-pem": "^2.0.0",
+    "node-fetch": "^2.2.0",
+    "request": "^2.87.0"
+  }
+}
